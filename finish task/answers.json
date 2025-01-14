@@ -1,0 +1,150 @@
+{
+    "Александр Николаев": {
+        "Операционные системы": {
+            "attempt    s": [
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое операционная система?",
+                            "user_answer": "None ",
+                            "correct": "1",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Какой из этих процессов является основным в операционной системе?",
+                            "user_answer": "None ",
+                            "correct": "4",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Какая операционная система является бесплатной и с открытым исходным кодом?",
+                            "user_answer": "None ",
+                            "correct": "3",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое многозадачность?",
+                            "user_answer": "None ",
+                            "correct": "1",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                }
+            ]
+        },
+        "Основы программирования": {
+            "attempts": [
+                {
+                    "questions": [
+                        {
+                            "question": "Какой язык программирования используется для веб-разработки?",
+                            "user_answer": "None ",
+                            "correct": "2",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Какой фреймворк используется для разработки на Python?",
+                            "user_answer": "None ",
+                            "correct": "1",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое HTML?",
+                            "user_answer": "None ",
+                            "correct": "2",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое CSS?",
+                            "user_answer": "None ",
+                            "correct": "2",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                }
+            ]
+        }
+    },
+    "Иван Максимов": {
+        "Алгоритмы и структуры данных": {
+            "attempts": [
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое алгоритм?",
+                            "user_answer": "1",
+                            "correct": "2",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое стек в структуре данных?",
+                            "user_answer": "2",
+                            "correct": "2",
+                            "is_correct": true
+                        }
+                    ],
+                    "score": 1
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое бинарное дерево?",
+                            "user_answer": "2",
+                            "correct": "1",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                },
+                {
+                    "questions": [
+                        {
+                            "question": "Что такое сортировка слиянием?",
+                            "user_answer": "None",
+                            "correct": "3",
+                            "is_correct": false
+                        }
+                    ],
+                    "score": 0
+                }
+            ]
+        }
+    }
+}
