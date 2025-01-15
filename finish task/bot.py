@@ -9,7 +9,7 @@ import time
 
 
 # Укажите путь к вашему chromedriver
-service = Service(r'C:\Users\Nicholas\AppData\Local\chromedriver-win64\chromedriver.exe')
+service = Service(r'chromedriver.exe')
 driver = webdriver.Chrome(service=service)
 driver.get('https://web.whatsapp.com')
 
