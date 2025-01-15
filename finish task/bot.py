@@ -140,6 +140,8 @@ try:
 
             if user_answer == "None":
                 print("Ответ не получен за отведенное время.")
+                send_message(contact_name, f"Ответ не получен за отведенное время.")
+                break
             else:
                 print(f"Получен ответ: {user_answer}")
                 break
