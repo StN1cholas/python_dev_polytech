@@ -163,7 +163,7 @@ try:
         else:
             send_message(contact_name, f"Неправильный ответ. Правильный ответ: {q['correct']}")
 
-        time.sleep(2)
+        time.sleep(42)
 
     # Сохраняем итоговую статистику
     answers = load_answers()
