@@ -118,6 +118,8 @@ try:
     send_message(contact_name, f"Тест: {selected_test['test_name']}")
     time.sleep(2)
 
+    correct_answers_count = 0 
+
     for index, q in enumerate(selected_test["questions"]):
         send_message(contact_name, f"Вопрос {index + 1}: {q['question']}")
         time.sleep(1)
@@ -147,6 +149,9 @@ try:
                 break
             time.sleep(3)
 
+        if is_correct:
+            correct_answers_count += 1
+
         # Проверяем правильность ответа
         is_correct = user_answer == q["correct"]
         record_answer(
@@ -166,10 +171,8 @@ try:
         time.sleep(42)
 
     # Сохраняем итоговую статистику
-    answers = load_answers()
-    score = answers[contact_name][selected_test["test_name"]]["attempts"][-1]["score"]
     total_questions = len(selected_test["questions"])
-    send_message(contact_name, f"Тест завершён. Верные ответы: {score}/{total_questions}")
+    send_message(contact_name, f"Тест завершён. Верные ответы: {correct_answers_count}/{total_questions}")
 
 except FileNotFoundError as e:
     print(e)
