@@ -149,11 +149,13 @@ try:
                 break
             time.sleep(3)
 
-        if is_correct:
-            correct_answers_count += 1
-
         # Проверяем правильность ответа
         is_correct = user_answer == q["correct"]
+
+        
+        if is_correct:
+            correct_answers_count += 1
+            
         record_answer(
             contact_name=contact_name,
             test_name=selected_test["test_name"],
